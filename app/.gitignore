@@ -43,3 +43,147 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# ===== BẢO MẬT VÀ CẤU HÌNH QUAN TRỌNG =====
+
+# Firebase và Google Services (QUAN TRỌNG - KHÔNG BAO GIỜ COMMIT)
+**/google-services.json
+**/GoogleService-Info.plist
+**/firebase_options.dart
+**/firebase.json
+**/.firebaserc
+
+# API Keys và Secrets
+**/secrets.dart
+**/api_keys.dart
+**/config.dart
+**/.env
+**/.env.local
+**/.env.production
+**/.env.staging
+
+# Keystore và Signing (QUAN TRỌNG - KHÔNG BAO GIỜ COMMIT)
+**/key.properties
+**/keystore/
+**/*.jks
+**/*.keystore
+**/*.p8
+**/*.p12
+**/*.mobileprovision
+
+# Database files
+**/*.db
+**/*.sqlite
+**/*.sqlite3
+
+# Logs và Debug files
+**/logs/
+**/*.log
+**/crashlytics/
+**/fabric.properties
+
+# Temporary files
+**/tmp/
+**/temp/
+**/*.tmp
+**/*.temp
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# IDE specific files
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/shelf
+
+# Flutter specific
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+**/android/key.properties
+**/android/app/google-services.json
+
+# Build outputs
+**/build/
+**/dist/
+**/out/
+
+# Dependencies
+**/node_modules/
+**/vendor/
+
+# Coverage reports
+coverage/
+**/coverage/
+
+# Test outputs
+**/test_driver/
+**/integration_test/
+
+# Platform specific
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/app.flx
+**/ios/Flutter/app.zip
+**/ios/Flutter/flutter_assets/
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/ServiceDefinitions.json
+**/ios/Runner/GeneratedPluginRegistrant.*
+
+**/android/.gradle/
+**/android/captures/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/local.properties
+**/android/**/GeneratedPluginRegistrant.java
+**/android/key.properties
+**/android/app/debug
+**/android/app/profile
+**/android/app/release
+
+# Web specific
+**/web/favicon.png
+**/web/icons/
+**/web/manifest.json
+
+# Windows specific
+**/windows/flutter/generated_plugin_registrant.cc
+**/windows/flutter/generated_plugin_registrant.h
+**/windows/flutter/generated_plugins.cmake
+
+# Linux specific
+**/linux/flutter/generated_plugin_registrant.cc
+**/linux/flutter/generated_plugin_registrant.h
+**/linux/flutter/generated_plugins.cmake
+
+# macOS specific
+**/macos/Flutter/GeneratedPluginRegistrant.swift
+**/macos/Flutter/GeneratedPluginRegistrant.swift
+**/macos/Flutter/GeneratedPluginRegistrant.swift
+
+# FVM (Flutter Version Management)
+.fvm/
+
+# Generated files
+**/*.g.dart
+**/*.freezed.dart
+**/*.gr.dart
+**/*.config.dart
+
+# Flutter Generated Plugin Files (QUAN TRỌNG - KHÔNG COMMIT)
+**/GeneratedPluginRegistrant.swift
+**/generated_plugin_registrant.cc
+**/generated_plugin_registrant.h
+**/generated_plugins.cmake
+**/GeneratedPluginRegistrant.java
+**/GeneratedPluginRegistrant.kt
